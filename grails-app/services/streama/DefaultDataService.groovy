@@ -286,6 +286,51 @@ class DefaultDataService {
           required: false,
           validationRequired: true
         ],
+        [
+          settingsKey: 'Active Theme',
+          name: 'active_theme',
+          description: 'Currently selected marketplace theme.',
+          settingsType: 'string',
+          value: '',
+          required: false,
+          validationRequired: false
+        ],
+        [
+          settingsKey: 'Theme Customization',
+          name: 'theme_customization',
+          description: 'JSON payload describing UI colors, typography, and layout toggles for themes.',
+          settingsType: 'string',
+          value: '{}',
+          required: false,
+          validationRequired: false
+        ],
+        [
+          settingsKey: 'SSL Certificate Domain',
+          name: 'ssl_domain',
+          description: 'Primary domain name used when requesting certificates via Let’s Encrypt/certbot.',
+          settingsType: 'string',
+          value: '',
+          required: false,
+          validationRequired: false
+        ],
+        [
+          settingsKey: 'SSL Contact Email',
+          name: 'ssl_email',
+          description: 'Contact email forwarded to Let’s Encrypt for expiration notices.',
+          settingsType: 'string',
+          value: '',
+          required: false,
+          validationRequired: false
+        ],
+        [
+          settingsKey: 'SSL Auto Renew',
+          name: 'ssl_auto_renew',
+          description: 'Automatically renew certificates when they near expiration.',
+          settingsType: 'boolean',
+          value: 'true',
+          required: false,
+          validationRequired: false
+        ],
     ]
 
     settings.each{ settingData ->
