@@ -1,0 +1,48 @@
+{
+  "plugins": [
+    {
+      "name": "Family Age Filter",
+      "author": "Erika Beispiel",
+      "version": "2.1.0",
+      "description": "Plugin für Altersfilter. Verhindert das Abspielen nicht jugendfreier Inhalte, Profile werden altersgerecht gefiltert.",
+      "download_url": "https://plugins.example.com/family-age-filter.zip",
+      "screenshots": [
+        "https://plugins.example.com/screenshots/agefilter1.png"
+      ]
+    },
+    {
+      "name": "Auto Subtitle Downloader",
+      "author": "Max Mustermann",
+      "version": "1.4.5",
+      "description": "Lädt automatisch passende Untertitel zu Videos herunter, unterstützt mehrere Sprachen.",
+      "download_url": "https://plugins.example.com/auto-subtitle-downloader.zip",
+      "screenshots": [
+        "https://plugins.example.com/screenshots/subtitle1.png",
+        "https://plugins.example.com/screenshots/subtitle2.png"
+      ]
+    }
+  ],
+  "themes": [
+    {
+      "name": "Darkflix Theme",
+      "author": "Lena Beispiel",
+      "version": "1.0.3",
+      "description": "Ein dunkles Netflix-inspiriertes Theme für ein angenehmes Heimkinoerlebnis.",
+      "download_url": "https://themes.example.com/darkflix-theme.zip",
+      "screenshots": [
+        "https://themes.example.com/screenshots/darkflix1.png",
+        "https://themes.example.com/screenshots/darkflix2.png"
+      ]
+    },
+    {
+      "name": "Ocean Blue",
+      "author": "Tom Beispiel",
+      "version": "2.0.0",
+      "description": "Ein frisches, blaues Theme mit klaren Linien und moderner Optik.",
+      "download_url": "https://themes.example.com/ocean-blue.zip",
+      "screenshots": [
+        "https://themes.example.com/screenshots/oceanblue1.png"
+      ]
+    }
+  ]
+}
