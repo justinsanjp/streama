@@ -27,6 +27,23 @@ class UrlMappings {
         "/api/v1/dash/markAsCompleted"(controller: 'dash', action: 'markAsCompleted')
         "/api/v1/dash/listGenres"(controller: 'dash', action: 'listGenres')
 
+        "/marketplace/manifest"(controller: 'marketplace', action: 'manifest')
+        "/marketplace/installed"(controller: 'marketplace', action: 'installed')
+        "/marketplace/install"(controller: 'marketplace', action: 'install')
+        "/marketplace/$id/state"(controller: 'marketplace', action: 'updateState')
+
+        "/api/v1/plugins/capabilities"(controller: 'pluginIntegration', action: 'capabilities')
+        "/api/v1/plugins/register"(controller: 'pluginIntegration', action: 'register')
+        "/api/v1/plugins/webhooks"(controller: 'pluginIntegration', action: 'webhooks')
+
+        "/api/v1/themes/manifest"(controller: 'theme', action: 'manifest')
+        "/api/v1/themes/activate"(controller: 'theme', action: 'activate')
+        "/api/v1/themes/active"(controller: 'theme', action: 'active')
+
+        "/ssl/config"(controller: 'ssl', action: 'config')
+        "/ssl/request"(controller: 'ssl', action: 'requestCertificate')
+        "/ssl/renew"(controller: 'ssl', action: 'renew')
+
         "/api/v1/player/video/$id"(controller: 'player', action: 'video')
         "/api/v1/player/updateViewingStatus"(controller: 'player', action: 'updateViewingStatus')
 
